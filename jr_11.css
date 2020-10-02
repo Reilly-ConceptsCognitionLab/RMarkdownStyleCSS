@@ -1,0 +1,150 @@
+/* Whole document: */
+body{
+  font-family: avenir;
+  font-size: 14pt;
+  color: black;
+  background-color: #f2f2f2;
+ /* background-image: url("background-hex.jpg"); */
+}
+
+/* Headers */
+
+h1.title {color: #ffffff;
+  font-size: 24pt;
+  background-color: #022109;
+  opacity: 1.0; /* completely opaque */
+  padding-top: 1em;
+  padding-bottom: .2em;
+  padding-right: .2em;
+  text-align: right;
+  /* border-left: 15px solid #074a17; adds a little green stripe on the left border */
+  
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 15px;
+}
+
+
+h1 {
+  font-size: 18pt;
+  color: 	 white;
+  background-color: #6e1717;
+  padding-left: .5em;
+  padding-top: .25em;
+  
+}
+
+
+h2 { 
+  font-size: 17pt;
+  color:  #074a17;  
+	padding-top:.5em;
+	opacity: 1.0; 
+}
+
+h3 { 
+  font-size: 16pt;
+   color: #074a17;
+}
+
+
+/* Code Chunks */
+pre {
+  max-height: 350px;
+  background-color: #E4ECE7;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 250px;
+}
+
+
+/* LINKS */
+
+/* unvisited link */
+a:link {
+  color: #374AD5;
+  text-decoration: none;
+}
+
+
+/* visited link */
+a:visited {
+  color: #4B0082;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover { 
+  color: #4B0082;
+  background-color: #E4ECE7;
+  text-decoration: none;
+}
+
+/* TOC */
+
+/*----------LOGO above TOC---------*/
+#TOC::before {
+  content: "";
+  display: block;
+  height: 200px;
+  width: 175px;
+  margin: 10px;
+  background-image: url("coglab_logo20.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+
+div #TOC {float:right;
+width:25%;
+font-size: 12pt;
+border: 2px solid #074a17;
+border-radius: 10px;
+background: white;
+padding: .5em;
+overflow:auto;
+/*  box-shadow: 4px 4px 5px #888; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-group-item.active:hover {
+    z-index: 1;
+    color: red;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+}
+
+.list-group-item.active:hover {
+    z-index: 2;
+    color: red;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+}
+
+
+.list-group-item.active {
+    z-index: 1;
+    color: red;
+    text-decoration: none;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: red;
+    text-decoration: none;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+    }
+

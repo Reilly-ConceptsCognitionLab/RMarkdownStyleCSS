@@ -1,0 +1,31 @@
+/* Whole document: */
+body{
+  font-family: avenir;
+  font-size: 13pt;
+  color: black;
+}
+
+/* Headers */
+h1 {
+  font-size: 19pt;
+  color: #4B0082;
+}
+h2 { 
+  font-size: 17pt;
+  color: olive;
+}
+h3 { 
+  font-size: 15pt;
+  color: olive;
+}
+
+/* unvisited link */
+a:link {
+  color: olive;
+}
+
+/* mouse over link */
+a:hover {
+  color: #4B0082;
+}
+

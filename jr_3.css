@@ -1,0 +1,46 @@
+/* Whole document: */
+body{
+  font-family: avenir;
+  font-size: 14pt;
+  color: black;
+}
+
+/* Headers */
+h1 {
+  font-size: 28pt;
+  color: #4B0082;
+}
+h2 { 
+  font-size: 22pt;
+  color: olive;
+}
+h3 { 
+  font-size: 16pt;
+  color: #666699;
+}
+
+
+/* Code Chunks */
+pre {
+  max-height: 300px;
+  background-color: #E4ECE7;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 150px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: olive;
+}
+
+/* mouse over link */
+a:hover {
+  color: #4B0082;
+}
+
+/* tables */
+

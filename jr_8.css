@@ -1,0 +1,78 @@
+/* Whole document: */
+body{
+  font-family: avenir;
+  font-size: 14pt;
+  color: black;
+}
+
+/* Headers */
+
+h1 {
+  font-size: 22pt;
+  color: #4B0082;
+}
+
+
+h2 { 
+  font-size: 20pt;
+  color:  #4a785c;
+}
+h3 { 
+  font-size: 18pt;
+  color:  #4a785c;
+}
+
+
+/* Code Chunks */
+pre {
+  max-height: 350px;
+  background-color: #E4ECE7;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 250px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: olive;
+}
+
+/* mouse over link */
+a:hover {
+  color: #4B0082;
+}
+
+/* TOC */
+
+.list-group-item.active:hover {
+    z-index: 1;
+    color: red;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+}
+
+.list-group-item.active:hover {
+    z-index: 2;
+    color: red;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+}
+
+
+.list-group-item.active {
+    z-index: 1;
+    color: black;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: black;
+    background-color: #E4ECE7;
+    border-color: #E4ECE7;
+    }
+
